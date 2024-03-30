@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<head>
+ 
+<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+ 
+┍━━━━━━━━━━━━━━━━━━━━━ 📌 ━━━━━━━━━━━━━━━━━━━━┑
+|                                             |
+|           Created by Emoticon!              |
+|      Credit is really appreciated           |
+|                    ^.^                      |
+|                                             |
+|      Please contact if there's an issue     |
+|  or if you need help building your website! |
+|                                             |
+|             Reach me on Tumblr              |
+|       https://jellyparty.tumblr.com/        |
+|                                             |
+┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┙
+ 
+// Useful resources
+ 
+// https://walnutcookie.tumblr.com/post/685546241573142528
+// https://http://jellyparty.tumblr.com/tagged/resource
+ 
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+ 
+ 
+<title>Neocities Test 2</title>
+<meta name="description" content="Nero's personal site" />
+<link rel="alternate" type="application/rss+xml" href="{RSS}"> 
+<link rel="stylesheet" href="https://static.tumblr.com/qxrkgx6/RWPmgn2qa/normalize.min.css">
+<link rel="shortcut icon" href="https://64.media.tumblr.com/c881cf5b3484346277a1997ffbf28873/tumblr_pr080uXzXc1vs5rw4_75sq.gif">
+ 
+ 
+<style type="text/css">
+ 
+        /* basic customization */
+ 
+    body{
+    word-wrap:break-word;
+    font-size:18px;
+    font-family:arial;
+    color:black;
+    background-image: url(https://i.postimg.cc/zB0BMHNK/55215200-endless-pattern-with-ivory-flowers-and-leaves-on-light-green-freshness-background-vector-te.jpg);
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: fixed;
+    background-size: 300px;}
+ 
+    a{
+    color:#40663c;
+    font-weight:bold;
+    text-decoration:underline;}
+ 
+    a:hover{
+    color:black;
+    text-decoration:none;
+    cursor:help;}
+ 
+    p{
+    margin:0 0 10px 0;
+    padding:10px;}
+ 
+    ::selection{ 
+    color:white; 
+    background-color:blue;;}
+ 
+    ::-webkit-scrollbar {
+    width: 15px;
+    height: 10px;}
+ 
+    ::-webkit-scrollbar-thumb:vertical{
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/Qtm9Z60.png);
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;}
+ 
+    ::-webkit-scrollbar-track {
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);}
+ 
+    ::-webkit-scrollbar-button:vertical:increment {
+    background-image: url(https://i.imgur.com/WhC8iy3.png);
+    width: 14px;
+    height: 16px;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;}
+ 
+    ::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url(https://i.imgur.com/fQ18mrR.png);
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 14px;
+    height: 16px;}
+ 
+        /* end basic customization */
+ 
+ 
+        /* sidebar */
+ 
+    #side{
+    left:0px;
+    width:225px;
+    height:100%;
+    top:-1px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding-top:5px;
+    padding-right:10px;
+    padding-left:5px;
+    border-right:3px #ABBAA2 outset;
+    background-image: linear-gradient(180deg, #D4EAC7, #FFFFFF, #FFFFFF, #D4EAC7);
+    position:fixed;}
+ 
+    #desc{
+    text-align:center;
+    padding:5px;
+    overflow:hidden;
+    margin:10px 0 0 0;
+    display:block;}
+ 
+    .button{
+    background:transparent;
+    padding:5px;}
+    .button:hover{
+    cursor:help;}
+ 
+    #table, th, td{ 
+    font-family:ms gothic;
+    width:100px;
+    margin:10px 0 0 0;
+    margin-left:-4px;
+    text-align:center;
+    background:transparent;}
+ 
+    .side img{
+    border:3px ridge white;}
+ 
+        /* sidebar end */
+ 
+ 
+        /* content */
+ 
+    #wrapper{
+    left:400px;
+    overflow:auto;
+    position:absolute;
+    padding:5px;
+    top:10px;
+    overflow-x: hidden;
+    overflow-y:auto;}
+    
+    #scrollie {
+    width:510px;
+    overflow-x:auto;
+    height:73px;
+    }
+    .line {
+    width:200%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+  
+  
+    .insbox {
+    width: 50%;
+    }
+ 
+    .content {
+    text-align:center;
+    background-image:linear-gradient(180deg, #D4EAC7, #FFFFFF, #FFFFFF, #D4EAC7);
+    width:500px;
+    padding:15px;
+    border:3px outset white;}
+    
+    .space {
+    width:100%;
+    height:10px;
+    }
+ 
+        /* content end */
+ 
+ 
+        /* credit, and pagedoll */
+ 
+    #emoticon{
+    margin:20px 0 0 0;
+    font-size:13px;}
+ 
+    #emoticon a{
+    text-decoration:none;}
+ 
+    #pagedoll{
+    position:fixed;
+    right:10px;
+    bottom:10px;}
+ 
+        /* end credit */
+ 
+{CustomCss}
+</style>
+</head>
+<body>
+<div id="side">
+<div class="side img">
+<img style="margin:0 0 5px 0" src="https://files.catbox.moe/x0cjr1.jpg" width="220px"></div>
+<audio id="music" src="https://files.catbox.moe/e2o4he.mp3"></audio>
+<button style="background-color:transparent; font-family:ms gothic; border:0px; width:235px; margin-left:-5px; font-size:18px" onclick="playpause()">
+<div class="button">&#9654; <marquee style="width:180px; font-size:18px; font-family:ms gothic; margin-bottom:-5px; background:transparent;">Patchwork Staccato (instrumental) by Toa </marquee></div></button>
+<script>
+	let player = document.getElementById("music"); //the audio id
+    let btn = document.getElementById("btn"); //the button id
+    isPlaying = false; //set to false because it is not playing yet
+ 
+    function playpause() {
+        if (!isPlaying) play(); //if isPlaying is false, then play the music
+        else pause(); //if isPlaying is true, then pause the music
+    }
+ 
+    function play(){
+        player.play(); //play the music
+        isPlaying = true; //set to true because the music is playing
+        btn.innerHTML = "pause"; //change the button to say pause
+    }
+ 
+    function pause(){
+        player.pause(); //pause the music
+        isPlaying = false; //set to false because the music is not playing
+        btn.innerHTML = "play"; //change the button to say play
+    }
+ 
+    player.onended = function(){
+        isPlaying = false; //the song has ended, isPlaying is false
+        btn.innerHTML = "play"; //change the button to say play
+    }
+</script>
+ 
+<table style="border:3px ridge white; overflow:auto; width:100%; background:transparent;">
+<tr>
+<td style="border:3px outset white"><a href="/">about</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white"><a href="/">books</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white"><a href="/">art</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white"><a href="/">fashion</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white;"><a href="/">design</a>
+</td>
+</tr>
+</table>
+ 
+<div id="desc">
+ 
+Click on the play button to play the song! Sorry if it takes forever to load... it's 5 minutes long...
+ 
+<!-- credit. you can change what this link looks like but i'd still really appreciate being credited for the base! -->
+<div id="emoticon">
+<a href="https://walnutcookie.tumblr.com/">&#9400;</a>
+</div>
+<!-- credit end -->
+ 
+</div>
+</div>
+ 
+<div id="wrapper">
+
+<div class="content">
+Yaho!!! <img src="https://64.media.tumblr.com/tumblr_m1hucbIMqt1qcuqz3.gif"> My name is <b>Nero</b> and I'm your webmaster! This is my attempt at having a personal website and learning how to use CSS and HTML... It's a little shabby at the moment, but I hope you like it! (You fuel my need to overshare about my interests) <hr> I am a <b>17</b> year old boy currently in my junior year of high school, and I use <b>he/him</b> pronouns exclusively! I'm into all kinds of humanities stuff, feel free to <i>ask about my interests!</i> (please) (I want to talk about it) Mostly, I am into <b>literature</b>, <b>fine arts</b>, <b>fashion subcultures</b>, and <b>design</b>! here are some of my other interests as well... <br>
+</div>
+<div class="space"></div>
+
+
+<div id="content">
+
+<div id="scrollie">
+    <div class="line">
+        <div class="insbox"><middle><img src="https://files.catbox.moe/5lnrib.jpg"> <img src="https://files.catbox.moe/9f5dbw.png"> <img src="https://files.catbox.moe/bkxych.jpg"> <img src="https://files.catbox.moe/xzkksn.png"> <img src="https://files.catbox.moe/bl0gi2.png"></middle></div>
+        <div class="insbox"><middle><img src="https://files.catbox.moe/bkxych.jpg"> <img src="https://files.catbox.moe/xzkksn.png"> <img src="https://files.catbox.moe/bl0gi2.png"> <img src="https://files.catbox.moe/xzkksn.png"> <img src="https://files.catbox.moe/bl0gi2.png"></middle></div>
+    </div>
+</div>
+</div>
+ 
+<div id="pagedoll">
+<img src="https://files.catbox.moe/793uhc.gif">
+</div>
+</div>
+</body>
+</html>
